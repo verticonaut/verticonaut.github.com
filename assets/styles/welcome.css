@@ -1,0 +1,379 @@
+/* line 17, /Users/martin/.rvm/gems/ruby-1.9.2-p290@nanoc/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, /Users/martin/.rvm/gems/ruby-1.9.2-p290@nanoc/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, /Users/martin/.rvm/gems/ruby-1.9.2-p290@nanoc/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, /Users/martin/.rvm/gems/ruby-1.9.2-p290@nanoc/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, /Users/martin/.rvm/gems/ruby-1.9.2-p290@nanoc/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, /Users/martin/.rvm/gems/ruby-1.9.2-p290@nanoc/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, /Users/martin/.rvm/gems/ruby-1.9.2-p290@nanoc/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, /Users/martin/.rvm/gems/ruby-1.9.2-p290@nanoc/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, /Users/martin/.rvm/gems/ruby-1.9.2-p290@nanoc/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, content/assets/styles/sass/_base.sass */
+* {
+  margin: 0;
+  padding: 0;
+  _font-family: Georgia, Palatino, Times, "Times New Roman", sans-serif;
+  font-family: Arial, sans-serif;
+  _font-size: 14px;
+}
+
+/* line 16, content/assets/styles/sass/_base.sass */
+.clear-float {
+  clear: both;
+}
+
+/* line 19, content/assets/styles/sass/_base.sass */
+.filler {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* line 27, content/assets/styles/sass/_base.sass */
+.nolink a {
+  text-decoration: none;
+  color: black;
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+/* line 30, content/assets/styles/sass/_base.sass */
+.nolink a:link {
+  color: black;
+}
+/* line 32, content/assets/styles/sass/_base.sass */
+.nolink a:visited {
+  color: black;
+}
+/* line 34, content/assets/styles/sass/_base.sass */
+.nolink a:hover {
+  color: black;
+}
+/* line 6, /Users/martin/.rvm/gems/ruby-1.9.2-p290@nanoc/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+.nolink a:active, .nolink a:focus {
+  outline: none;
+}
+
+/* line 40, content/assets/styles/sass/_base.sass */
+a:visited {
+  color: #ff3300;
+}
+/* line 42, content/assets/styles/sass/_base.sass */
+a:hover {
+  color: #ff9900;
+}
+
+/* line 45, content/assets/styles/sass/_base.sass */
+.padder {
+  padding: 15px;
+}
+
+/* line 48, content/assets/styles/sass/_base.sass */
+.small-note {
+  font-size: 10pt;
+}
+
+/* line 51, content/assets/styles/sass/_base.sass */
+h1 {
+  font-weight: bold;
+  font-size: 16pt;
+  margin: 5px 0 10px;
+}
+
+/* line 55, content/assets/styles/sass/_base.sass */
+h2 {
+  font-weight: bold;
+  font-size: 14pt;
+  margin: 5px 0 10px;
+}
+
+/* line 59, content/assets/styles/sass/_base.sass */
+h3 {
+  font-weight: bold;
+  font-size: 12pt;
+  margin: 5px 0 10px;
+}
+
+/* line 63, content/assets/styles/sass/_base.sass */
+h4 {
+  font-weight: bold;
+  font-size: 11pt;
+  margin: 5px 0 10px;
+}
+
+/* line 68, content/assets/styles/sass/_base.sass */
+dt {
+  font-weight: bold;
+}
+
+/* line 71, content/assets/styles/sass/_base.sass */
+dd {
+  margin-left: 5px;
+}
+
+/* line 12, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-1 {
+  background: #e0ddab;
+}
+/* line 14, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-1:hover {
+  background: #bfbf99;
+}
+
+/* line 17, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-2 {
+  background: #94b394;
+}
+/* line 19, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-2:hover {
+  background: #7a9982;
+}
+
+/* line 22, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-3 {
+  background: #978765;
+}
+/* line 24, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-3:hover {
+  background: #665c47;
+}
+
+/* line 27, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-4 {
+  background: #a21e36;
+}
+/* line 29, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-4:hover {
+  background: #7f0026;
+}
+
+/* line 32, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-5 {
+  background: #f3d49d;
+}
+/* line 34, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-5:hover {
+  background: #e5b867;
+}
+
+/* line 5, content/assets/styles/sass/welcome.sass */
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 800px;
+}
+
+/* line 11, content/assets/styles/sass/welcome.sass */
+#title {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  width: 250px;
+  padding-top: 0px;
+  z-index: 99;
+}
+
+/* line 19, content/assets/styles/sass/welcome.sass */
+#title-text {
+  float: right;
+  top: 0;
+  right: 0;
+  width: 250px;
+  border-bottom: 2px solid silver;
+  font-size: 24pt;
+  text-align: right;
+}
+
+/* line 28, content/assets/styles/sass/welcome.sass */
+#socials {
+  float: right;
+  padding: 0px;
+  z-index: 99;
+}
+/* line 33, content/assets/styles/sass/welcome.sass */
+#socials div {
+  float: right;
+  padding: 2px;
+}
+
+/* line 37, content/assets/styles/sass/welcome.sass */
+#splash {
+  position: absolute;
+  top: 30px;
+  bottom: 0;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 45, content/assets/styles/sass/welcome.sass */
+#splash .focus {
+  _border: 1px solid red;
+  z-index: 10;
+}
+/* line 49, content/assets/styles/sass/welcome.sass */
+#splash .shiver {
+  _border: 1px solid black;
+  display: none;
+  z-index: 9;
+}
+
+/* line 54, content/assets/styles/sass/welcome.sass */
+#menubar {
+  margin-left: auto;
+  margin-right: auto;
+  _background-color: grey;
+  width: 696px;
+  height: 70px;
+  font-family: Arial, sans-serif;
+}
+/* line 62, content/assets/styles/sass/welcome.sass */
+#menubar .item {
+  _border: 1px solid black;
+  _background-color: blue;
+  float: left;
+  height: 45px;
+  margin: 0 1px;
+  width: 134px;
+  text-align: center;
+  padding-top: 25px;
+}
+/* line 72, content/assets/styles/sass/welcome.sass */
+#menubar .first {
+  margin-left: 8px;
+}
+
+/* line 76, content/assets/styles/sass/welcome.sass */
+#footer {
+  margin-left: auto;
+  margin-right: auto;
+  _background-color: green;
+  width: 700px;
+}
+
+/* line 82, content/assets/styles/sass/welcome.sass */
+#footer-content {
+  padding: 10px 0 20px 0;
+  text-align: center;
+  font-size: 9pt;
+}
+/* line 87, content/assets/styles/sass/welcome.sass */
+#footer-content a {
+  color: red;
+}
+
+/* line 91, content/assets/styles/sass/welcome.sass */
+#slide-panel {
+  font-family: Helvetica, Arial, sans-serif;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-top-left-radius: 10px;
+  background: #efefef;
+  border: 1px solid #111111;
+  display: none;
+  filter: alpha(opacity=85);
+  height: auto;
+  right: 0;
+  opacity: 0.65;
+  padding: 60px 20px 20px 20px;
+  position: absolute;
+  top: 120px;
+  width: 260px;
+}
+/* line 109, content/assets/styles/sass/welcome.sass */
+#slide-panel #tweety {
+  position: absolute;
+  left: 19px;
+  top: 15px;
+}
+/* line 114, content/assets/styles/sass/welcome.sass */
+#slide-panel #tweety_title {
+  position: absolute;
+  left: 60px;
+  top: 21px;
+}
+/* line 119, content/assets/styles/sass/welcome.sass */
+#slide-panel #latest-tweets {
+  font-size: 10pt;
+}
+
+/* line 122, content/assets/styles/sass/welcome.sass */
+#slide-trigger {
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-top-left-radius: 10px;
+  background: #333333;
+  border: 1px solid #444444;
+  color: white;
+  display: block;
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  padding: 10px 15px 10px 10px;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  top: 130px;
+}

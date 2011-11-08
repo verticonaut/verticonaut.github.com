@@ -1,0 +1,138 @@
+/* line 5, content/assets/styles/sass/_base.sass */
+* {
+  margin: 0;
+  padding: 0;
+  _font-family: Georgia, Palatino, Times, "Times New Roman", sans-serif;
+  font-family: Arial, sans-serif;
+  _font-size: 14px;
+}
+
+/* line 16, content/assets/styles/sass/_base.sass */
+.clear-float {
+  clear: both;
+}
+
+/* line 19, content/assets/styles/sass/_base.sass */
+.filler {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* line 27, content/assets/styles/sass/_base.sass */
+.nolink a {
+  text-decoration: none;
+  color: black;
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+/* line 30, content/assets/styles/sass/_base.sass */
+.nolink a:link {
+  color: black;
+}
+/* line 32, content/assets/styles/sass/_base.sass */
+.nolink a:visited {
+  color: black;
+}
+/* line 34, content/assets/styles/sass/_base.sass */
+.nolink a:hover {
+  color: black;
+}
+/* line 6, /Users/martin/.rvm/gems/ruby-1.9.2-p290@nanoc/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+.nolink a:active, .nolink a:focus {
+  outline: none;
+}
+
+/* line 40, content/assets/styles/sass/_base.sass */
+a:visited {
+  color: #ff3300;
+}
+/* line 42, content/assets/styles/sass/_base.sass */
+a:hover {
+  color: #ff9900;
+}
+
+/* line 45, content/assets/styles/sass/_base.sass */
+.padder {
+  padding: 15px;
+}
+
+/* line 48, content/assets/styles/sass/_base.sass */
+.small-note {
+  font-size: 10pt;
+}
+
+/* line 51, content/assets/styles/sass/_base.sass */
+h1 {
+  font-weight: bold;
+  font-size: 16pt;
+  margin: 5px 0 10px;
+}
+
+/* line 55, content/assets/styles/sass/_base.sass */
+h2 {
+  font-weight: bold;
+  font-size: 14pt;
+  margin: 5px 0 10px;
+}
+
+/* line 59, content/assets/styles/sass/_base.sass */
+h3 {
+  font-weight: bold;
+  font-size: 12pt;
+  margin: 5px 0 10px;
+}
+
+/* line 63, content/assets/styles/sass/_base.sass */
+h4 {
+  font-weight: bold;
+  font-size: 11pt;
+  margin: 5px 0 10px;
+}
+
+/* line 68, content/assets/styles/sass/_base.sass */
+dt {
+  font-weight: bold;
+}
+
+/* line 71, content/assets/styles/sass/_base.sass */
+dd {
+  margin-left: 5px;
+}
+
+/* line 3, content/assets/styles/sass/about.sass */
+#about-img {
+  float: right;
+  padding: 2px;
+  margin: 0 0 20px 20px;
+}
+
+/* line 8, content/assets/styles/sass/about.sass */
+.section {
+  padding: 10px 0 20px 0;
+}
+
+/* line 11, content/assets/styles/sass/about.sass */
+.info-box {
+  margin-top: 20px;
+  padding-left: 10px;
+  border-left: 4px solid rgba(170, 170, 170, 0.5);
+}
+/* line 16, content/assets/styles/sass/about.sass */
+.info-box .label {
+  font-weight: bold;
+  width: 100px;
+}
+/* line 19, content/assets/styles/sass/about.sass */
+.info-box .label {
+  font-wight: normal;
+}
+/* line 22, content/assets/styles/sass/about.sass */
+.info-box ul {
+  list-style-type: none;
+  padding: 0 0 0 15px;
+  margin: 0px;
+}

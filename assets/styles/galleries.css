@@ -1,0 +1,281 @@
+/* line 5, content/assets/styles/sass/_base.sass */
+* {
+  margin: 0;
+  padding: 0;
+  _font-family: Georgia, Palatino, Times, "Times New Roman", sans-serif;
+  font-family: Arial, sans-serif;
+  _font-size: 14px;
+}
+
+/* line 16, content/assets/styles/sass/_base.sass */
+.clear-float {
+  clear: both;
+}
+
+/* line 19, content/assets/styles/sass/_base.sass */
+.filler {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* line 27, content/assets/styles/sass/_base.sass */
+.nolink a {
+  text-decoration: none;
+  color: black;
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+/* line 30, content/assets/styles/sass/_base.sass */
+.nolink a:link {
+  color: black;
+}
+/* line 32, content/assets/styles/sass/_base.sass */
+.nolink a:visited {
+  color: black;
+}
+/* line 34, content/assets/styles/sass/_base.sass */
+.nolink a:hover {
+  color: black;
+}
+/* line 6, /Users/martin/.rvm/gems/ruby-1.9.2-p290@nanoc/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+.nolink a:active, .nolink a:focus {
+  outline: none;
+}
+
+/* line 40, content/assets/styles/sass/_base.sass */
+a:visited {
+  color: #ff3300;
+}
+/* line 42, content/assets/styles/sass/_base.sass */
+a:hover {
+  color: #ff9900;
+}
+
+/* line 45, content/assets/styles/sass/_base.sass */
+.padder {
+  padding: 15px;
+}
+
+/* line 48, content/assets/styles/sass/_base.sass */
+.small-note {
+  font-size: 10pt;
+}
+
+/* line 51, content/assets/styles/sass/_base.sass */
+h1 {
+  font-weight: bold;
+  font-size: 16pt;
+  margin: 5px 0 10px;
+}
+
+/* line 55, content/assets/styles/sass/_base.sass */
+h2 {
+  font-weight: bold;
+  font-size: 14pt;
+  margin: 5px 0 10px;
+}
+
+/* line 59, content/assets/styles/sass/_base.sass */
+h3 {
+  font-weight: bold;
+  font-size: 12pt;
+  margin: 5px 0 10px;
+}
+
+/* line 63, content/assets/styles/sass/_base.sass */
+h4 {
+  font-weight: bold;
+  font-size: 11pt;
+  margin: 5px 0 10px;
+}
+
+/* line 68, content/assets/styles/sass/_base.sass */
+dt {
+  font-weight: bold;
+}
+
+/* line 71, content/assets/styles/sass/_base.sass */
+dd {
+  margin-left: 5px;
+}
+
+/* line 12, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-1 {
+  background: #e0ddab;
+}
+/* line 14, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-1:hover {
+  background: #bfbf99;
+}
+
+/* line 17, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-2 {
+  background: #94b394;
+}
+/* line 19, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-2:hover {
+  background: #7a9982;
+}
+
+/* line 22, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-3 {
+  background: #978765;
+}
+/* line 24, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-3:hover {
+  background: #665c47;
+}
+
+/* line 27, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-4 {
+  background: #a21e36;
+}
+/* line 29, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-4:hover {
+  background: #7f0026;
+}
+
+/* line 32, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-5 {
+  background: #f3d49d;
+}
+/* line 34, content/assets/styles/sass/_menu_a_colors.sass */
+.menu-item-color-5:hover {
+  background: #e5b867;
+}
+
+/* line 7, content/assets/styles/sass/galleries.sass */
+#galleries {
+  width: 700px;
+  font-size: 15px;
+}
+/* line 12, content/assets/styles/sass/galleries.sass */
+#galleries .featured_gallery {
+  float: left;
+  width: 223px;
+}
+/* line 16, content/assets/styles/sass/galleries.sass */
+#galleries .section {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #a9c2a9;
+  _background-color: #a2a2a2;
+  font-weight: bold;
+  margin-top: 40px;
+  left: 0;
+  padding: 5px;
+  vertical-align: middle;
+}
+/* line 27, content/assets/styles/sass/galleries.sass */
+#galleries .gallery-item {
+  right: 20px;
+  margin: 10px 10px 10px 0px;
+}
+/* line 31, content/assets/styles/sass/galleries.sass */
+#galleries .time-box {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  background-color: #c1d3c1;
+  float: left;
+  position: relative;
+  left: 0px;
+  top: 0;
+  width: 50px;
+  height: 42px;
+  border: 1px silver solid;
+  text-align: center;
+  padding-top: 10px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+/* line 46, content/assets/styles/sass/galleries.sass */
+#galleries .gallery-summary {
+  overflow: hidden;
+  *zoom: 1;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  -moz-box-shadow: grey 2px 2px 10px;
+  -webkit-box-shadow: grey 2px 2px 10px;
+  -o-box-shadow: grey 2px 2px 10px;
+  box-shadow: grey 2px 2px 10px;
+  _background-color: #d6e2d6;
+  background: -webkit-gradient(linear, right top, left bottom, from(#d0ddd0), to(#eeeeee));
+  background: -moz-linear-gradient(-135deg, #d0ddd0, #eeeeee);
+  margin: 10px 0px 0px 0px;
+  padding: 10px 10px 0px 10px;
+  top: 0px;
+  right: 0px;
+}
+/* line 57, content/assets/styles/sass/galleries.sass */
+#galleries .gallery-summary .splash {
+  float: right;
+}
+/* line 60, content/assets/styles/sass/galleries.sass */
+#galleries .gallery-summary .splash img {
+  width: 100px;
+  height: 100px;
+  padding: 0 0 10px 10px;
+}
+/* line 65, content/assets/styles/sass/galleries.sass */
+#galleries .gallery-summary a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+/* line 6, /Users/martin/.rvm/gems/ruby-1.9.2-p290@nanoc/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+#galleries .gallery-summary a:active, #galleries .gallery-summary a:focus {
+  outline: none;
+}
+
+/* line 68, content/assets/styles/sass/galleries.sass */
+#tag-clouds {
+  margin-top: 15px;
+  float: right;
+  width: 170px;
+}
+
+/* line 73, content/assets/styles/sass/galleries.sass */
+.tag-cloud {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  -moz-box-shadow: grey 2px 2px 10px;
+  -webkit-box-shadow: grey 2px 2px 10px;
+  -o-box-shadow: grey 2px 2px 10px;
+  box-shadow: grey 2px 2px 10px;
+  padding: 10px;
+  float: right;
+  border: 1px silver solid;
+  width: 190px;
+  margin: 0 0 20px 0;
+}
+/* line 82, content/assets/styles/sass/galleries.sass */
+.tag-cloud ul {
+  list-style: none;
+  margin: 0 10px 0 0;
+}
+/* line 86, content/assets/styles/sass/galleries.sass */
+.tag-cloud ul li {
+  display: inline;
+  padding: 0 10px;
+  margin: 0;
+}
